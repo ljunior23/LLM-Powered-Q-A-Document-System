@@ -29,7 +29,7 @@ A production-ready Retrieval-Augmented Generation (RAG) system built with LangCh
 
 1. **Clone the repository**
 ```bash
-   git clone <your-repo-url>
+   git clone (https://github.com/ljunior23/LLM-Powered-Q-A-Document-System)
    cd rag-openai-faiss
 ```
 
@@ -184,13 +184,6 @@ rag-openai-faiss/
    - Set main file: `rag_openai_faiss.py`
    - Click "Deploy"
 
-3. **Set Secrets** (Optional)
-   - In Streamlit Cloud dashboard, go to app settings
-   - Add secrets in TOML format:
-```toml
-     OPENAI_API_KEY = "your-api-key-here"
-```
-
 ### Deploy to Other Platforms
 
 **Docker**
@@ -258,9 +251,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📧 Contact
 
-Your Name - your.email@example.com
+Your Name - kwaleon@umich.edu
 
-Project Link: [https://github.com/yourusername/rag-openai-faiss](https://github.com/yourusername/rag-openai-faiss)
+Project Link: [https://github.com/ljunior23/LLM-Powered-Q-A-Document-System](https://github.com/ljunior23/LLM-Powered-Q-A-Document-System)
 
 ## 🙏 Acknowledgments
 
