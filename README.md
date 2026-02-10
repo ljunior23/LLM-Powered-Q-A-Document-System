@@ -1,4 +1,4 @@
-#  RAG Q&A System with OpenAI & FAISS
+=#  RAG Q&A System with OpenAI & FAISS
 
 A production-ready Retrieval-Augmented Generation (RAG) system built with LangChain, OpenAI API, FAISS vector store, and Streamlit. Upload your PDF documents and ask questions with AI-powered answers backed by your documents.
 
@@ -58,7 +58,7 @@ A production-ready Retrieval-Augmented Generation (RAG) system built with LangCh
    - The app will automatically open at `http://localhost:8501`
    - If not, navigate to the URL shown in your terminal
 
-## 📖 Usage
+##  Usage
 
 1. **Enter your OpenAI API Key** in the sidebar
 2. **Upload a PDF document** using the file uploader
