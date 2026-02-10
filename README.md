@@ -251,9 +251,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📧 Contact
 
-Your Name - kwaleon@umich.edu
+George Kumi Acheampong - kwaleon@umich.edu
 
-Project Link: [https://github.com/ljunior23/LLM-Powered-Q-A-Document-System](https://github.com/ljunior23/LLM-Powered-Q-A-Document-System)
 
 ##  Acknowledgments
 
