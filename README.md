@@ -1,4 +1,4 @@
-# 🤖 RAG Q&A System with OpenAI & FAISS
+#  RAG Q&A System with OpenAI & FAISS
 
 A production-ready Retrieval-Augmented Generation (RAG) system built with LangChain, OpenAI API, FAISS vector store, and Streamlit. Upload your PDF documents and ask questions with AI-powered answers backed by your documents.
 
@@ -7,18 +7,18 @@ A production-ready Retrieval-Augmented Generation (RAG) system built with LangCh
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.39-red)
 ![LangChain](https://img.shields.io/badge/LangChain-0.3-orange)
 
-## ✨ Features
+##  Features
 
-- 📄 **PDF Document Processing** - Upload and process PDF documents automatically
-- 🔍 **Intelligent Search** - FAISS vector store for fast semantic search
-- 🤖 **AI-Powered Answers** - GPT-3.5/GPT-4 powered responses
-- 📊 **Quality Metrics** - RAGAS evaluation for faithfulness and relevancy
-- 💬 **Chat Interface** - Interactive chat with conversation history
-- 💰 **Cost Tracking** - Monitor token usage and API costs in real-time
-- 📥 **Export Functionality** - Download chat history and metrics
-- ⚙️ **Configurable** - Adjustable chunk size, overlap, and model parameters
+-  **PDF Document Processing** - Upload and process PDF documents automatically
+-  **Intelligent Search** - FAISS vector store for fast semantic search
+-  **AI-Powered Answers** - GPT-3.5/GPT-4 powered responses
+-  **Quality Metrics** - RAGAS evaluation for faithfulness and relevancy
+-  **Chat Interface** - Interactive chat with conversation history
+-  **Cost Tracking** - Monitor token usage and API costs in real-time
+-  **Export Functionality** - Download chat history and metrics
+-  **Configurable** - Adjustable chunk size, overlap, and model parameters
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -67,7 +67,7 @@ A production-ready Retrieval-Augmented Generation (RAG) system built with LangCh
 5. **View sources** - Expand to see which document sections were used
 6. **Check metrics** - View faithfulness and relevancy scores for each answer
 
-## ⚙️ Configuration Options
+##  Configuration Options
 
 ### Model Settings
 - **OpenAI Model**: Choose between GPT-4, GPT-4-turbo, GPT-3.5-turbo
@@ -82,14 +82,14 @@ A production-ready Retrieval-Augmented Generation (RAG) system built with LangCh
 - **Enable/Disable Metrics**: Toggle RAGAS evaluation
 - **Metrics Tracked**: Faithfulness, Answer Relevancy
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 The system uses [RAGAS](https://github.com/explodinggradients/ragas) for answer quality evaluation:
 
 - **Faithfulness** (0-1): Measures if the answer is grounded in the retrieved context
 - **Answer Relevancy** (0-1): Measures if the answer is relevant to the question
 
-## 💰 Cost Estimation
+##  Cost Estimation
 
 Approximate costs per 1K tokens (as of 2024):
 
@@ -101,7 +101,7 @@ Approximate costs per 1K tokens (as of 2024):
 
 The app tracks your usage in real-time in the sidebar.
 
-## 🏗️ Architecture
+##  Architecture
 ```
 ┌─────────────┐
 │   PDF Doc   │
@@ -143,7 +143,7 @@ The app tracks your usage in real-time in the sidebar.
                     └─────────────┘
 ```
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Frontend**: Streamlit
 - **LLM Framework**: LangChain
@@ -154,7 +154,7 @@ The app tracks your usage in real-time in the sidebar.
 - **Evaluation**: RAGAS
 - **Language**: Python 3.9+
 
-## 📁 Project Structure
+##  Project Structure
 ```
 rag-openai-faiss/
 ├── rag_openai_faiss.py    # Main application file
@@ -163,7 +163,7 @@ rag-openai-faiss/
 └── .gitignore            # Git ignore file
 ```
 
-## 🚀 Deployment
+##  Deployment
 
 ### Deploy to Streamlit Cloud
 
@@ -203,14 +203,14 @@ heroku create your-app-name
 git push heroku main
 ```
 
-## 🔒 Security Notes
+##  Security Notes
 
-- ⚠️ **Never commit your API keys** to version control
+-  **Never commit your API keys** to version control
 - Use environment variables or Streamlit secrets for API keys
 - The `.gitignore` file is configured to exclude sensitive files
 - API keys are only stored in memory during the session
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -235,11 +235,11 @@ pip install faiss-cpu==1.7.4
 pip install pypdf --upgrade
 ```
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -255,7 +255,7 @@ Your Name - kwaleon@umich.edu
 
 Project Link: [https://github.com/ljunior23/LLM-Powered-Q-A-Document-System](https://github.com/ljunior23/LLM-Powered-Q-A-Document-System)
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [LangChain](https://github.com/langchain-ai/langchain) - LLM framework
 - [OpenAI](https://openai.com/) - GPT models and embeddings
@@ -263,14 +263,14 @@ Project Link: [https://github.com/ljunior23/LLM-Powered-Q-A-Document-System](htt
 - [Streamlit](https://streamlit.io/) - Web framework
 - [RAGAS](https://github.com/explodinggradients/ragas) - RAG evaluation framework
 
-## 📊 Metrics & Performance
+##  Metrics & Performance
 
 - **Average Response Time**: 3-5 seconds
 - **Embedding Time**: ~1-2 seconds per page
 - **Supported Document Size**: Up to 100 pages recommended
 - **Concurrent Users**: Depends on deployment platform
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - [ ] Multi-document support
 - [ ] Document management (delete/update)
